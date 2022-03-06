@@ -1,0 +1,22 @@
+.rotateBefore {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.rotate {
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transform: scaleY(-1);
+}
+
+.btn {
+  user-select: none;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  opacity: 1;
+}
+
+.btn:hover {
+  transition: opacity 0.3s;
+  opacity: 0.5;
+}
