@@ -80,7 +80,7 @@ export default function Gallery() {
         }
         hr {
           width: 446px;
-          max-width: 100%;
+          max-width: 100vw;
           border: 0;
           border-top: 1px solid #957a7a;
           margin: 0;
