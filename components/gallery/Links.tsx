@@ -8,13 +8,13 @@ export default function Links({ data }: {
   return (
     <>
       <div className="links">
-        <Image src='/img/Link45deg.svg' width={24} height={24} />
+        <Image src='/img/Link45deg.svg' width={24} height={24} alt="links" />
         <span>Links</span>
       </div>
       <div className="list">
         {Object.keys(data).map((key) => (
           <a key={key} href={data[key as LinkType]} className={utilStyles.btn}>
-            <Image src={`/img/icon/${key}.svg`} width={24} height={24} />
+            <Image src={`/img/icon/${key}.svg`} width={24} height={24} alt={key} />
           </a>
         ))}
       </div>

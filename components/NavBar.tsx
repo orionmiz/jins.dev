@@ -7,7 +7,7 @@ export default function NavBar() {
       <nav>
         <Link href={'/'}>
           <a>
-            <Image src='/img/MainIcon.png' width={62} height={54} />
+            <Image src='/img/MainIcon.png' width={62} height={54} alt="home" />
           </a>
         </Link>
       </nav>

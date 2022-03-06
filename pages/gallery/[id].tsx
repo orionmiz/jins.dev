@@ -33,7 +33,7 @@ export default function GalleryPage({ pieceData }: {
       <section>
         <div className="container">
           <div className='thumbnail'>
-            <Image src={`/img/gallery/${pieceData.thumbnail}`} width={500} height={500} objectFit='cover' />
+            <Image src={`/img/gallery/${pieceData.thumbnail}`} width={500} height={500} objectFit='cover' alt={pieceData.title} />
           </div>
           <div className="content">
             <h1>{pieceData.title}</h1>

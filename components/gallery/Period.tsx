@@ -28,7 +28,7 @@ export default function Period({ period, size = 'md' }: {
   return (
     <>
       <div className="period">
-        <Image src='/img/CalendarCheck.svg' width={sizeOption.icon} height={sizeOption.icon} />
+        <Image src='/img/CalendarCheck.svg' width={sizeOption.icon} height={sizeOption.icon} alt="period" />
         <span>{period}</span>
       </div>
       <style jsx>{`

@@ -7,7 +7,7 @@ export default function MetaIcon({ variant, size }: {
 }) {
   return (
     <>
-      <Image src={`/img/icon/${variant}.svg`} width={size} height={size} className={styles.adjustTheme} />
+      <Image src={`/img/icon/${variant}.svg`} width={size} height={size} className={styles.adjustTheme} alt={variant} />
     </>
   )
 }

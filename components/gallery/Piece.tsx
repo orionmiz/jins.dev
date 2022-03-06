@@ -16,7 +16,7 @@ export default function Piece({ pieceId }: {
         <a className={utilStyles.btn}>
           <div className="piece">
             <div className="thumbnail">
-              <Image src={`/img/gallery/${pieceData.thumbnail}`} width={156} height={146} objectFit="cover" />
+              <Image src={`/img/gallery/${pieceData.thumbnail}`} width={156} height={146} objectFit="cover" alt={pieceData.title} />
             </div>
             <div className="info">
               <div className="piece-title">{pieceData.title}</div>

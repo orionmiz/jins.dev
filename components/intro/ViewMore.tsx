@@ -10,7 +10,7 @@ export default function ViewMore({ folded, onClick }: {
     <>
       <div className={utilStyles.btn} onClick={onClick}>
         <span>{`${folded ? '자세히' : '간략히'} 보기`}</span>
-        <Image src='/img/ChevronDoubleDown.svg' width={26} height={26} className={folded ? utilStyles.rotateBefore : utilStyles.rotate}/>
+        <Image src='/img/ChevronDoubleDown.svg' width={26} height={26} className={folded ? utilStyles.rotateBefore : utilStyles.rotate} alt="more" />
       </div>
       <style jsx>{`
         div {

@@ -7,13 +7,13 @@ export default function Footer() {
       <section>
         <div className="icons">
           <a href='https://blog.jins.dev' className={utilStyles.btn}>
-            <Image src='/img/Globe2.svg' width={23} height={23} />  
+            <Image src='/img/Globe2.svg' width={23} height={23} alt="blog" />  
           </a>
           <a href='https://github.com/orionmiz' className={utilStyles.btn}>
-            <Image src='/img/Github.svg' width={23} height={23} />
+            <Image src='/img/Github.svg' width={23} height={23} alt="github" />
           </a>
           <a href='https://twitter.com/jin_l33' className={utilStyles.btn}>
-            <Image src='/img/Twitter.svg' width={23} height={23} />  
+            <Image src='/img/Twitter.svg' width={23} height={23} alt="twitter" />  
           </a>
         </div>
         <div className="contact">
