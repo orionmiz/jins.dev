@@ -29,7 +29,3 @@ export async function getAllPieceIds() {
 export async function getPieceData(id: string): Promise<PieceData> {
   return gallery[id];
 }
-
-export function getIconFileName(name: string) {
-  return name.toLowerCase().replaceAll(' ', '');
-}

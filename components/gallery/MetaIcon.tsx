@@ -1,4 +1,4 @@
-import { getIconFileName } from "lib/gallery";
+import { getIconFileName } from "lib/utils";
 import Image from "next/image";
 import styles from 'styles/Utils.module.css'
 
