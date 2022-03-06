@@ -16,9 +16,10 @@ export default function Collapse({ opened, children }: {
 
   useEffect(() => {
     if (opened) {
-      return () => clearTimeout(setTimeout(() => {
+      const delay = setTimeout(() => {
         setFollowed(true);
-      }, 300));
+      }, 300);
+      return () => clearTimeout(delay);
     } else {
       setFollowed(false);
     }
