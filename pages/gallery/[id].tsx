@@ -148,7 +148,7 @@ export default function GalleryPage({ pieceData }: {
         }
         @media (max-width: 400px) {
           .thumbnail, .content {
-            width: auto;
+            width: 100%;
             height: auto;
           }
         }
