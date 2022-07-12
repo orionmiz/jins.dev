@@ -139,5 +139,36 @@
       "url": "https://jins.dev",
       "github": "https://github.com/orionmiz/jins.dev"
     }
+  },
+  "mabre": {
+    "title": "Mabre",
+    "thumbnail": "mabre.jpg",
+    "period": "2022/05 ~ 2022/07",
+    "design": [
+      "Figma"
+    ],
+    "languages": [
+      "HTML",
+      "CSS",
+      "TypeScript"
+    ],
+    "deps": [
+      "React",
+      "NextJS"
+    ],
+    "desc": "인증 기반 게임 서버 커뮤니티입니다.",
+    "features": [
+      "OAuth 회원 인증/인가 (Next.js Middleware)",
+      "게시글 작성/수정 CMS, 댓글 기능 (Editor.js)",
+      "게시글 이미지 스토리지 분리 (S3 + CloudFront)",
+      "Data fetching/caching 최적화 (SWR)",
+      "REST API 설계 (Next.js API Routes)",
+      "DB Schema 설계 (Prisma)",
+      "게임 서버와의 연동을 위한 별도 Kotlin 플러그인"
+    ],
+    "links": {
+      "url": "https://mabre.org",
+      "github": "https://github.com/orionmiz/mabre"
+    }
   }
 }

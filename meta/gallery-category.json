@@ -1,5 +1,5 @@
 {
-  "Web": ["jins", "loa-utils", "lunar-trip",  "western-hill", "moku", "doki"],
+  "Web": ["mabre", "jins", "loa-utils", "lunar-trip",  "western-hill", "moku", "doki"],
   "Game": ["moku"],
   "Tool": ["loa-utils"]
 }
